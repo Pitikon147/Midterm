@@ -159,7 +159,7 @@ function Index() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Midterm.io">
       <Container className="p-3 my-3 bg-light">
         <Routes>
           <Route path="/" element={<Index />} />
